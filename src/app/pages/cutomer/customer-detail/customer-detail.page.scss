@@ -1,0 +1,50 @@
+ion-content{
+    ion-card{
+        border-radius: 10px;
+        .txt-name1{
+            font-size: 1rem;
+            color: #999;
+        }
+        .txt-name2{
+            font-size: 1rem;
+            color: #222;
+            text-align: end;
+        }
+        .txt-date{
+            .txt-day{
+                font-size: 1rem;
+                color: #999;
+            }
+            ion-detetime{
+                font-size: 1rem;
+                color: #222;
+            }
+            ion-icon{
+                font-size: 1.2rem;
+            }
+        }
+        .total_name1{
+            .txt-total{
+                font-size: 1rem;
+                color: #999;
+            }
+            .txt-total1{
+                font-size: 1rem;
+                color: #222;
+                text-align: center;
+            }
+        }
+    }
+    .button-1{
+        text-align: center;
+        .txtbtn1{
+            font-size: 1rem;
+            height: 2rem;
+            width: 20vh;
+            border-radius: 10px;
+            color: white;
+            background-color: #F29500;
+
+        }
+    }
+}

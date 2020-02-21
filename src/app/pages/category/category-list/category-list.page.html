@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Quản Lý Danh Mục</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="add"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+<ion-item (click)="gotocategoryproductlist()">
+  <ion-label class="txtname_pro">Tất cả sản phẩm</ion-label>
+</ion-item>
+<ion-item>
+  <ion-label class="txtname_pro">Sản phẩm chưa phân loại</ion-label>
+</ion-item>
+<ion-item class="list_item" *ngFor="let i of listcategy1">
+  <ion-label>
+    <div class="txt_icon test-dropdown" (click)="change()">
+      <ion-icon name="add" *ngIf="!status"></ion-icon>
+      <ion-icon name="remove" *ngIf="status"></ion-icon>
+      <p>{{i.name}}</p>
+      <div class="dropdown" *ngIf="status">
+        <ion-item *ngFor="let i of listcategy">
+          <div class="txt_icon"> 
+            <ion-label class="test" (click)="gotocategorychoose()">{{i.name}}</ion-label>
+            <ion-icon  name="brush" (click)="presentAl()"></ion-icon>
+          </div>
+        </ion-item>
+      </div>
+    </div>
+    <div class="icon1">
+      <ion-icon class="test1" name="brush" (click)="presentAl()"></ion-icon>
+    </div>
+  </ion-label>
+</ion-item>
+
+</ion-content>

@@ -273,7 +273,15 @@ const routes: Routes = [
     path: "staff-list",
     loadChildren:
       "./pages/others/staff-list/staff-list.module#StaffListPageModule"
-  }
+  },
+  { path: 'customer-list', 
+  loadChildren: "./pages/cutomer/customer-list/customer-list.module#CustomerListPageModule"},
+  { path: 'customer-detail', 
+  loadChildren: "./pages/cutomer/customer-detail/customer-detail.module#CustomerDetailPageModule" },
+  { path: 'category-product-list', loadChildren: './pages/category/category-product-list/category-product-list.module#CategoryProductListPageModule' },
+  { path: 'category-choose', loadChildren: './pages/category/category-choose/category-choose.module#CategoryChoosePageModule' },
+  { path: 'category-list', loadChildren: './pages/category/category-list/category-list.module#CategoryListPageModule' },
+
 ];
 
 @NgModule({

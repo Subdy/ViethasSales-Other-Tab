@@ -42,16 +42,16 @@ listedit1:Array<any>=[
 ];
 listedit2:Array<any>=[
   {id:1,
-    name:"NCC1"
+    name:"tất cả"
   },
   {id:2,
-    name:"NCC2"
+    name:"thời trang nữ "
   },
   {id:3,
-    name:"NCC3"
+    name:"thời trang nam"
   },
   {id:4,
-    name:"NCC4"
+    name:"thời trang bé gái"
   }
 ];
   constructor() { }

@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Danh Sách Khách Hàng</ion-title>
+    <!-- <ion-button slot="end">
+      <ion-icon name="add"></ion-icon>
+    </ion-button> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="list-staff1">
+  <div class="search">
+    <ion-searchbar placeholder="Tìm tên,mã,sđt khách hàng"></ion-searchbar>
+    <div class="select-option">
+        <ion-select interface="popover">
+          <ion-select-option value="nes">A-Z</ion-select-option>
+          <ion-select-option value="n64">Z-A</ion-select-option>
+        </ion-select>
+    </div>
+  </div>
+  <div class="txt-title1">Tổng số <span>400</span> khách hàng</div>
+  <div class="name-list-staff">
+    <ion-item *ngFor="let i of list_staff1" (click)="gotocustomerdetail()">
+      <ion-label>
+        <div class="txt-name-staff1">
+          <h3>{{i.name}}</h3>
+          <h2>{{i.phone}}</h2>
+        </div>
+        <div class="name-title2">
+          <p>{{i.code}}</p>
+          <p>{{i.sell}}</p>
+        </div>
+      
+      </ion-label>
+    </ion-item>
+  </div>
+</div>
+</ion-content>

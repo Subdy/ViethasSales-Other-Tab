@@ -1,0 +1,99 @@
+ion-content{
+    .list_category{
+        .search{
+            display: flex;
+            font-size: 1rem;
+            ion-searchbar{
+                margin: 2vh;
+                width: 85vw;
+                height: 30px;
+                --background: white;
+                padding: 0;
+                border: 1px rgba(112, 112, 112, 0.2) solid;
+                border-radius: 5px;
+            }
+            .select-icon{
+                margin-top: 2vh;
+                font-size: 2rem;
+                // min-width: 10vh;
+            }
+        }
+        .select_1{
+            display: flex;
+            justify-content: space-between;
+            ion-label{
+                margin: 1.5vh;
+                font-size:0.8rem;
+                span{
+                    color: red;
+                    font-size: 0.8rem;
+                }
+            }
+            ion-select{
+                font-size: 1rem;
+                ion-select-option{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .list_product_list{
+           
+            ion-checkbox{
+                height: 1rem;
+                width: 1rem;
+            }
+                img{
+                    border-radius: 10vh;
+                    height: 54px;
+                    width: 54px;
+                }
+                .list_txtname{
+                    margin-left: 2vh;
+                    h3{
+                        font-size: 1rem;
+                        font-weight: bold;
+                    }
+                    .txtpro1{
+                        display: flex;
+                        justify-content: space-between;
+                        label{
+                            font-size: 0.8rem;
+                            color: #222;
+                            span{
+                                font-size:1rem !important;
+                                padding-left: 5vh !important;
+                            }
+                        }
+                        ion-icon{
+                            font-size: 1rem;
+                        }
+                    }
+                    p{
+                        font-size: 0.8rem;
+                        color: #222;
+                        span{
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+               
+          
+        
+    }
+        ion-fab{
+            top: 75vh;
+            button{
+            background-color: #F5A62F !important;
+            height: 4rem;
+            width: 4rem;
+            border-radius: 20vh;
+                color: white;
+                ion-icon{
+                    font-size: 2rem;
+                }
+
+            }
+        }
+    }
+    
+}

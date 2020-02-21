@@ -1,127 +1,98 @@
 ion-content{
-    ion-grid{
-        .div-cal1{
-            display: flex;
-          //   width: 25vh;
-          span{
-              line-height: 5vh;
-              font-size: 0.9rem;
-          }
-          .cal1{
-              width: 27vw;
-              border: 1px solid #eee;
-              box-shadow: 0vh 0.1vh 0vh 0.1vh #ddd;
-              border-radius: 10vh;
-              float: left;
-              height: 5vh;
-              margin-left: 1vh;
-            //   margin: auto;
-              item-native{
-                  padding-left: 0!important;
-              }
-              ion-datetime{
-                  font-size: 0.9rem;
-                  color: green;
-                  padding: 0!important;
-                  min-height: 6vh;
-                  line-height: 4.6vh!important;
-                  padding-bottom: 1.1vw!important;
-              }
-              ion-icon{
-                  padding-left: 0.5vw;
-                  padding-bottom: 2vh;
-                  color: green;
-                  font-size: 1rem;
-              }
-          }
+  .content_date{
+    padding: 1.5vh 1vh 0vh 1vh;
+    margin: 0px 12px 30px 12px;
+    display: flex;
+    .date{
+        width: 50%;
+        .txt_date{
+        font-size: 2vh;
+        font-weight: bold;
         }
-        .buttonadd{
-          
-            .btn-add{
-                height: 2rem;
-                width: 50vw;
-                font-size: 1rem;
-                border-radius: 10px;
-                background-color: #ffffff;
-                box-shadow: 0px 1px 1px 1px grey;
-            }
-        }
-        @media screen and(min-width:600px) {
-            .div-cal1{
-                display: flex;
-              //   width: 25vh;
-              span{
-                  line-height: 5vh;
-                  font-size: 0.9rem;
-              }
-              .cal1{
-                  width: 27vw;
-                  border: 1px solid #eee;
-                  box-shadow: 0vh 0.1vh 0vh 0.1vh #ddd;
-                  border-radius: 10vh;
-                  float: left;
-                  height: 5vh;
-                  margin-left: 1vh;
-                //   margin: auto;
-                  item-native{
-                      padding-left: 0!important;
-                  }
-                  ion-datetime{
-                      font-size: 0.9rem;
-                      color: green;
-                      padding: 0!important;
-                      min-height: 6vh;
-                      line-height: 4.6vh!important;
-                      padding-bottom: 1.1vw!important;
-                  }
-                  ion-icon{
-                      padding-left: 0.5vw;
-                      padding-bottom: 2vh;
-                      color: green;
-                      font-size: 1rem;
-                  }
-              }
-            }
-            .buttonadd{
-              margin-top: 1vh;
-                .btn-add{
-                    height: 2rem;
-                    width: 50vw;
-                    font-size: 1rem;
-                    border-radius: 10px;
-                    background-color: #ffffff;
-                    box-shadow: 0px 1px 1px 1px grey;
-                }
-            }
+    .select_date{
+        font-weight: bold;
+        display: flex;
+        width: fit-content;
+        box-shadow: 0px 2px 3px 0px rgb(201, 201, 201);
+        border-radius:10px ;
+        padding: 0.6vh;
+        min-height: 0;
+        vertical-align: middle;
+        .item-inner{
+            padding: 0;
         }
     }
+    ion-icon{
+        color: #098cf7;
+        font-size: 1rem;
+        // padding-left:1vw;
+        // vertical-align: middle;
+        margin: auto;
+    }
     
+    ion-datetime{
+        // display: inline-flex;
+        font-size: 0.8rem; 
+        padding: 0vw 0vw 0vw 0vw;
+        text-align: center;
+        margin: auto;
+        .datetime-text {
+          color: #35be1b;
+        }
+    }
+    }  
+    .date_start{
+       
+        display: flex;
+        justify-content: space-around;
+        .txt_date1{
+           
+            font-size: 0.8rem;
+            margin: auto;
+        }
+        .select_date{
+            color: #00A859;
+            float: right;
+            margin-right: 1.2vh;
+            width: 70%;
+            height: 2rem;
+        }
+    }
+    .buttonadd{  
+      .btn-add{
+          height: 2rem;
+        width: 50vw;
+          font-size: 0.8rem;
+           border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0px 2px 3px 0px rgb(201, 201, 201);
+        }
+ }
+}
     .list_item{
         .total_item{
             ion-label{
-                font-size: 1rem;
+                font-size: 0.8rem;
                 span{
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                     color: red;
                 }
             }
             ion-badge{
                 background-color: #ffffff;
                 color: red;
-                font-size: 1rem;
+                font-size: 0.8rem;
                 margin-right: 15vh;
             }
         }
         .list-opening{
             ion-item{
-              height: 15vh;
-              width: 94vw;
                 ion-thumbnail{
-                  height: 10vh;
-                  width: 10vh;
+                  height: 54px;
+                  width: 54px;
                     img{
-                        height: 10vh;
-                        width: 10vh;
+                        height: 54px;
+                        width: 54px;
                         border-radius: 10px;
                     }
                 }
@@ -135,6 +106,7 @@ ion-content{
                     justify-content: space-between;
                     p{
                       color: black;
+                      font-size: 0.8rem;
                       .span1{
                         color: black;
                         margin-left: 5vh;
@@ -178,14 +150,12 @@ ion-content{
             }
             @media screen and(min-width:600px){
               ion-item{
-                height: 15vh;
-                width: 94vw;
                   ion-thumbnail{
-                    height: 10vh;
-                    width: 10vh;
+                    height: 54px;
+                    width: 54px;
                       img{
-                          height: 10vh;
-                          width: 10vh;
+                          height: 54px;
+                          width: 54px;
                           border-radius: 10px;
                       }
                   }

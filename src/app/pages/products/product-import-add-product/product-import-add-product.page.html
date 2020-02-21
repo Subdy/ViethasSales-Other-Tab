@@ -15,11 +15,11 @@
   </div>
     <div class="txt_name_2">
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Tên Sản Phẩm</ion-label>
+      <ion-label class="name_1">Tên sản phẩm</ion-label>
       <ion-input type="text" formControlName="name" ></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Mã Sản Phẩm/SKU</ion-label>
+      <ion-label class="name_1">Mã sản phẩm/SKU</ion-label>
       <ion-input type="text" formControlName="SKU"></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
@@ -28,28 +28,28 @@
       <ion-icon (click)="scan()" name="barcode"></ion-icon>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Đơn Vị</ion-label>
+      <ion-label class="name_1">Đơn vị</ion-label>
       <ion-input type="text" formControlName="unit"></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Kích Thước</ion-label>
+      <ion-label class="name_1">Kích thước</ion-label>
       <ion-input type="text" formControlName="size"></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Màu Sắc</ion-label>
+      <ion-label class="name_1">Màu sắc</ion-label>
       <ion-input type="text" formControlName="color"></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Giá Nhập</ion-label>
+      <ion-label class="name_1">Giá nhập</ion-label>
       <ion-input type="number" formControlName="price_import" ></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Giá Bán</ion-label>
+      <ion-label class="name_1">Giá bán</ion-label>
       <ion-input type="number" formControlName="price" ></ion-input>
     </ion-item>
     <ion-item class="txt_item1">
-      <ion-label class="name_1">Phân Loại</ion-label>
-      <ion-select >
+      <ion-label class="name_1">Phân loại</ion-label>
+      <ion-select interface="popover">
         <ion-select-option value="f">Tất Cả</ion-select-option> 
         <ion-select-option value="m">Chưa chọn</ion-select-option>
         <ion-select-option value="m">Đã chọn</ion-select-option>
@@ -60,7 +60,7 @@
       <ion-input type="text" formControlName="id_supplier"></ion-input>
     </ion-item>
       <ion-item class="txt_item1">
-        <ion-label class="txt_allow">Cho Phép Bán</ion-label>
+        <ion-label class="txt_allow">Cho phép bán</ion-label>
         <ion-checkbox slot="end" formControlName="allow_sell"></ion-checkbox>
       </ion-item>
   </div>

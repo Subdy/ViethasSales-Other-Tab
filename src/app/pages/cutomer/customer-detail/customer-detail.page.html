@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Danh Sách Khách Hàng</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="trash"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-item>
+    <ion-label class="txt-name1">Họ và Tên</ion-label>
+    <ion-label class="txt-name2">Nguyễn Vân An</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Mã khách hàng</ion-label>
+    <ion-label class="txt-name2">KH088HY</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Số điện thoại</ion-label>
+    <ion-label class="txt-name2">09987654444</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Email</ion-label>
+    <ion-input class="txt-name2"></ion-input>
+  </ion-item>
+  <ion-item class="txt-date">
+    <ion-label class="txt-day">Ngày tháng năm sinh</ion-label>
+    <ion-datetime displayFormat="DD/MM/YYYY" min="2005" max="2016" value="2008-09-02"></ion-datetime>
+    <ion-icon name="calendar"></ion-icon>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Giới tính</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="boy">Nam</ion-select-option>
+      <ion-select-option value="girl">Nữ</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Số nhà,tên đường</ion-label>
+    <ion-input class="txt-name2"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Quận,huyện</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="boy">Nam</ion-select-option>
+      <ion-select-option value="girl">Nữ</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label class="txt-name1">Tỉnh,thành phố</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="boy">Nam</ion-select-option>
+      <ion-select-option value="girl">Nữ</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item class="total_name1">
+    <ion-label class="txt-total">Tổng mua</ion-label>
+    <ion-label class="txt-total1">3,000,000</ion-label>
+  </ion-item>
+</ion-card>
+<div class="button-1">
+  <button class="txtbtn1">LƯU</button>
+</div>
+</ion-content>

@@ -1,0 +1,195 @@
+ion-content {
+  .txtname_pro {
+    font-size: 1rem;
+    margin: 2vw;
+    margin-left: 4vw;
+  }
+  .list_item {
+    ion-label {
+      display: flex;
+      justify-content: space-between;
+      .txt_icon {
+        display: flex;
+        ion-icon {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 1rem;
+          height: 2rem;
+        }
+      }
+      .test-dropdown {
+        position: relative;
+        .dropdown {
+          position: relative;
+          top: 20px;
+          margin-bottom: 20px;
+          width: 100%;
+          text-align: left;
+          margin-left: -36vw;
+          ion-item {
+            width: 90vw;
+
+            .txt_icon {
+              display: flex !important;
+              flex-direction: row !important;
+              justify-content: space-between !important;
+              width: 90vw;
+            }
+          }
+        }
+      }
+    }
+    .icon1 {
+      .test1 {
+        position: absolute;
+        left: 82vw;
+      }
+    }
+  }
+//   @media screen and(min-width:600px) {
+//     .txtname_pro {
+//       font-size: 1rem;
+//       margin: 2vw;
+//       margin-left: 2vw !important;
+//     }
+//     .list_item {
+//       ion-label {
+//         display: flex;
+//         justify-content: space-between;
+//         .txt_icon {
+//           display: flex;
+//           ion-icon {
+//             font-size: 1rem;
+//           }
+//           p {
+//             font-size: 1rem;
+//             height: 2rem;
+//           }
+//         }
+//         .test-dropdown {
+//           position: relative;
+//           .dropdown {
+//             position: relative;
+//             top: 20px;
+//             margin-bottom: 20px;
+//             width: 100%;
+//             text-align: left;
+//             margin-left: -18vh !important;
+//             ion-item {
+//               width: 95vw !important;
+//               margin-left: 7vw !important;
+//             }
+//           }
+//         }
+//       }
+//       .icon1 {
+//         .test1 {
+//           position: absolute;
+//           left: 90vw !important;
+//         }
+//       }
+//     }
+//   }
+  @media screen and(min-width:375px){
+    .txtname_pro {
+      font-size: 1rem;
+      margin: 2vw;
+      margin-left: 4vw;
+    }
+    .list_item {
+      ion-label {
+        display: flex;
+        justify-content: space-between;
+        .txt_icon {
+          display: flex;
+          ion-icon {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 1rem;
+            height: 2rem;
+          }
+        }
+        .test-dropdown {
+          position: relative;
+          .dropdown {
+            position: relative;
+            top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: left;
+            margin-left: -35vw ;
+            ion-item {
+              width: 90vw;
+
+              .txt_icon {
+                display: flex !important;
+                flex-direction: row !important;
+                justify-content: space-between !important;
+                width: 90vw;
+              }
+            }
+          }
+        }
+      }
+      .icon1 {
+        .test1 {
+          position: absolute;
+          left: 81vw;
+        }
+      }
+    }
+  }
+  @media screen  and(min-width:411px){
+      .txtname_pro{
+          font-size: 1rem;
+          margin: 2vw;
+          margin-left: 4vw;
+      }
+      .list_item{
+         ion-label{
+             display: flex;
+             justify-content: space-between;
+             .txt_icon{
+                 display: flex;
+                 ion-icon{
+                     font-size: 1rem;
+                 }
+                 p{
+                     font-size: 1rem;
+                     height: 2rem;
+                 }
+             }
+             .test-dropdown{
+                 position: relative;
+                 .dropdown{
+                      position: relative;
+                      top: 20px;
+                      margin-bottom: 20px;
+                  width: 100%;
+                  text-align: left;
+                  margin-left: -32vw !important;
+                  ion-item{
+                      width: 92vw;
+
+                  .txt_icon{
+                      display: flex !important;
+                      flex-direction: row !important;
+                      justify-content: space-between !important;
+                      width: 92vw;
+                  }
+              }
+                 }
+              }
+         }
+         .icon1{
+             .test1{
+              position: absolute;
+              left: 84vw !important;
+             }
+         }
+      }
+
+  }
+}

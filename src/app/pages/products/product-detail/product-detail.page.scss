@@ -5,12 +5,12 @@
         text-align: -webkit-center;
         .load-img{
             border-radius: 10px;
-            height: 17vh;
-            width: 35vw;
+            height: 100px;
+            width: 100px;
             box-shadow: 0px 0px 10px 2px gray;
             img{
-                height: 17vh;
-            width: 35vw;
+                height: 100px;
+                 width: 100px;
             }
             .card-title{
                 position: absolute;
@@ -25,7 +25,7 @@
     .txt-toggle{
         direction: rtl;
         ion-item{
-            font-size: 2vh;
+            font-size: 1rem;
         }
     }
     .infor{
@@ -40,33 +40,46 @@
        .name-item{
            .id-item{
                .txt_item{
-                ion-label{
-                    display: flex;
-                    font-size: 2vh;
-                    // justify-content:space-between;
+                // ion-label{
+                //     display: flex;
+                //     font-size: 1rem;
+                   
+                // }
+                .txtname-item1{
+                    font-size: 1rem;
+                    color: #999;
                 }
                 .txt_name_item{
                     .label1{
-                        font-size: 2vh;
+                        font-size: 1rem;
                     }
+                }
+                ion-select{
+                    min-width: 27vh;
+                    text-align: end;
                 }
                 .txt_name_item1{
                     display: flex;
                     .label2{
-                        font-size: 2vh;
+                        font-size: 1rem;
                         margin-right: 1vh;
                     }
                 }
                }
            }
     }
-    
+    }
+    .txt-toggle{
+        direction: rtl;
+        ion-item{
+            font-size: 1rem;
+        }
     }
     .btn-button1{
         text-align: center;
         .btn_1{
             border-radius: 6px;
-            font-size: 2vh;
+            font-size: 1rem;
             padding: 2vh;
             background-color: orange;
             width: 35vw;
